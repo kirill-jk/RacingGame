@@ -41,8 +41,6 @@ class GameViewController: UIViewController {
 		setupUI()
 		
 		
-		let swipeGesture = UIPanGestureRecognizer(target: self, action: #selector(handlePan(_:)))
-		view.addGestureRecognizer(swipeGesture)
 		startGame()
 	}
 	func setupUI() {
